@@ -16,7 +16,7 @@ public class BankController {
     @Autowired
     BankService bankService;
     @PostMapping("add")
-    private List<Bank> adddetails(@RequestBody List<Bank> bank) {
+    private List<Bank> addDetails(@RequestBody List<Bank> bank) {
         return bankService.adddetails(bank);
     }
 
